@@ -1,0 +1,65 @@
+.scale-1x{height: 300px; width: 300px;font-size:12px; border:2px solid #CDBA96;    }
+.scale-2x{height: 400px; width: 400px;font-size:17px; border:4px solid #CDBA96;    }
+.scale-3x{height: 500px; width: 500px;font-size:21px; border:6px solid #CDBA96;    }
+.calendar{
+	border-radius: 20px;
+	border-style: ridge;
+}
+/*下面的字体与行高等等都用百分比或em的形式
+只要上面的font-size、width、height变化，下面会相应做出变化*/
+.calendartitle{
+	position: relative;
+	height: 18%;
+	text-align: center;
+	border-bottom: 1px solid rgb(231,231,231);
+}
+/*两个左右切换按钮*/
+.calendartitle a{
+	font-size: 2em;
+	text-decoration: none;
+}
+#prev{                                             
+	position: relative;
+	top:-2.5em;
+	left: -5em;
+}
+#next{
+	position: relative;
+	top:-2.5em;
+	left: 5em;
+}
+/*设置日历显示列表*/
+.bodylist{
+	padding: 0px 10px;
+}
+.bodylist ul{
+	width:100%;
+	font-family:"goudy old style",san-serif;
+	font-weight:bold;
+	padding: 0px;
+	margin:0px;
+}
+.bodylist ul li{
+	width:14.28%;
+	height: 2.6em;
+	display:block;
+	float:left;
+	list-style-type:none;
+	line-height: 2.6em;
+	box-sizing:border-box;
+	text-align:center;
+}
+
+/*颜色设置类*/
+.lightgrey{
+	color:#a8a8a8; /*浅灰色*/
+}
+.darkgrey{
+	color:#565656; /*深灰色*/
+}
+.lightbrown{
+	color:#CDBA96; /*绿色*/
+}
+.greenbox{
+	background:#e9f8df; /*浅绿色背景*/
+}
